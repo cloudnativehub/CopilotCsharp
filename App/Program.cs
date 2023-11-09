@@ -25,6 +25,12 @@ public class App
         Algorithm.Sort.QuickSort(quick_values);
 
         // Print values in one line
-        Console.WriteLine("After quick sort: " + string.Join(" ", quick_values));        
+        Console.WriteLine("After quick sort: " + string.Join(" ", quick_values));
+
+        // Merge sort values by using Algorithm.Sort.MergeSort
     }
+
+    // Create an asp.net core web api server, expose all the sorting algorithms as api endpoints，let's think step by step
+    
+
 }

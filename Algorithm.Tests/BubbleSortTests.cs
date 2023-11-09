@@ -1,5 +1,6 @@
-namespace CopilotCsharp.Algorithm.Tests;
+using Xunit;
 
+namespace CopilotCsharp.Algorithm.Tests;
 public class BubbleSortTests
 {
     [Fact]
